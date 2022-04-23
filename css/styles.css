@@ -1,0 +1,58 @@
+
+
+@font-face {
+font-family: "CustomFont";
+src: url("Cookie.otf");
+
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+  background: #5851D8;
+  color: #FFFFFF;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+#footer {
+  background-color: ;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  margin-bottom: 0px;
+}
+
+div {
+  margin: 20px 20px;
+}
+
+body {
+  margin-bottom: 50px;
+}
+
+#alltext {
+  font-family: "CustomFont";
+}
