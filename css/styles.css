@@ -1,8 +1,11 @@
 
 
 @font-face {
-font-family: "CustomFont";
-src: url("Cookie.otf");
+    font-family: 'cookieregular';
+    src: url('../css/fonts/cookie-webfont.woff2') format('woff2'),
+         url('../css/fonts/cookie-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
@@ -54,5 +57,5 @@ body {
 }
 
 #alltext {
-  font-family: "CustomFont";
+  font-family: "cookieregular";
 }
